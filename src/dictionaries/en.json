@@ -1,0 +1,512 @@
+{
+  "page": {
+    "welcome": {
+      "message": "Welcome"
+    },
+    "search": {
+      "write_off": "Search write-off"
+    },
+    "home": {
+      "title": "Welcome",
+      "description": "Internationalization in NextJs 13 App Router"
+    },
+    "dashboard": {
+      "title": "Annual expense Chart",
+      "subTitle": "Annual business / personal  Chart",
+      "help": "Need help?",
+      "check": "Please check your docs",
+      "documentation": "documentation"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "This is the about page"
+    },
+    "login": {
+      "welcome_back": "Welcome Back",
+      "log_in_to_continue": "Log in to your account to continue",
+      "email": "Email",
+      "password": "Password",
+      "sign_in": "Sign In",
+      "remember_me": "Remember me",
+      "forgot_password": "Forgot password",
+      "continue_with": "or continue with",
+      "google": "Google",
+      "no_account": "Don’t have an account?",
+      "sign_up": "Sign up"
+    },
+    "signup": {
+      "title": "Sign Up",
+      "subtitle": "Create a new account",
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "sign_up": "Sign Up",
+      "or_continue_with": "or continue with",
+      "google": "Google",
+      "already_have_account": "Already have an account?",
+      "sign_in": "Sign In",
+      "verification_email_sent": "Email verification link has been sent to your email. Please check.",
+      "error_message": "Failed to register. Please try again."
+    },
+    "modal": {
+      "no_data": "Could not find anything"
+    },
+    "pagination": {
+      "next": "Next",
+      "previous": "Previous",
+      "perpage": "Rows per page"
+    },
+    "expenseDataTableColumns": {
+      "date": "Date",
+      "description": "Description",
+      "category": "Category",
+      "type": "Type",
+      "amount": "Amount"
+    },
+    "incomeDataTableColumns": {
+      "date": "Date",
+      "description": "Description",
+      "category": "Category",
+      "type": "Type",
+      "amount": "Amount"
+    },
+    "CategoryDataTableColumns": {
+      "serial_no": "Serial No.",
+      "category": "Category",
+      "created_by": "Created By",
+      "search": "Search Category",
+      "overview": "Category Overview",
+      "CategoryTitle": "Add Category",
+      "CategoryTitleUpdate": "Update Category",
+      "text": "Category Name"
+    },
+    "WriteOffDataTableColumns": {
+      "category": "Category",
+      "total": "Total items",
+      "deduction": "Deduction"
+    },
+    "expenseoverview": {
+      "title": "Total Expense Overview",
+      "subtitle": "in August",
+      "addExpense": "Add Expense",
+      "uploadStatements": "Upload Statements",
+      "search": "Search expenses"
+    },
+    "expensemodal": {
+      "addExpense": "Add expense",
+      "uploadStatements": "Upload statements",
+      "applyRule": "Apply Rule"
+    },
+    "expensetopsection": {
+      "business": "Business",
+      "personal": "Personal",
+      "august": "August",
+      "more": "More"
+    },
+    "expenseUploadFile": {
+      "heading": "Upload receipt csv, pdf",
+      "uploadButton": "Upload"
+    },
+    "rulesTopSection": {
+      "title": "Add, Customize rules to calculate your write-offs with ease",
+      "subtitle": "Customize rule for better management",
+      "search": "Search Rule",
+      "create_rule": "Create Rule",
+      "heading": "Rules Overview"
+    },
+    "rulesTableColumn": {
+      "serial_no": "Serial No.",
+      "description_contains": "Description Contains",
+      "expense_type": "Expense Type",
+      "category": "Category"
+    },
+    "writeOffsTopSection": {
+      "title": "Potential saving from expenses",
+      "categories": {
+        "Meals": "Meals",
+        "Clothing": "Clothing",
+        "Travel": "Travel",
+        "Supplies": "Supplies",
+        "Payment": "Payment",
+        "Gas": "Gas",
+        "Transport": "Transport",
+        "Others": "Others"
+      }
+    },
+    "writeoffoverview": {
+      "title": "Edit write-offs"
+    }
+  },
+  "components": {
+    "expenseOverview": {
+      "heading": "Total Expenses Overview",
+      "subheading": "in August",
+      "search": "Search expenses"
+    },
+    "incomeOverview": {
+      "heading": "Total Income Overview",
+      "search": "Search Income"
+    },
+    "expenseoverview": {
+      "filter_by": "Filter by"
+    },
+    "filters": {
+      "category": "Category",
+      "expense_type": "Expense type"
+    },
+    "buttons": {
+      "expense_buttons": {
+        "text": {
+          "apply_rule": "Apply Rule",
+          "show_write_offs": "Show Write-offs",
+          "add_expense": "Add Expense",
+          "upload_statements": "Upload Statements"
+        }
+      },
+      "income_buttons": {
+        "text": {
+          "add_income": "Add Income",
+          "upload_statements": "Upload Statements"
+        }
+      },
+      "category_buttons": {
+        "text": {
+          "add_category": "+ Add Category"
+        }
+      }
+    }
+  },
+  "componentsExpenseModal": {
+    "expense": {
+      "heading": {
+        "add_expense": "Manually add expense",
+        "update_expense": "Update Expense"
+      },
+      "label": {
+        "description": "Description",
+        "amount": "Amount (NOK)",
+        "expense_type": "Expense Type",
+        "category": "Category"
+      },
+      "button": {
+        "add": "Add",
+        "update": "Update",
+        "expense": "Expense"
+      },
+      "toast": {
+        "create_success": "Expense created successfully!",
+        "create_failure": "Failed to create expense",
+        "update_success": "Expense updated successfully!",
+        "update_failure": "Failed to update expense"
+      },
+      "uploaded_receipt": "Uploaded Receipt",
+      "upload": "Drag a file or click to browse",
+      "uploadTitle": "Upload Expense Statement"
+    }
+  },
+  "componentsRuleModal": {
+    "rule": {
+      "if": "IF",
+      "descriptionContains": "Description contain",
+      "then": "Then",
+      "expenseType": "Expense type",
+      "selectType": "Select type",
+      "business": "Business",
+      "personal": "Personal",
+      "category": "Category",
+      "selectCategory": "Select category",
+      "create": "Create",
+      "update": "Update",
+      "discard": "Discard"
+    }
+  },
+  "toast": {
+    "ruleCreatedSuccess": "Rule created successfully",
+    "ruleUpdatedSuccess": "Rule updated successfully"
+  },
+  "componentsApplyRuleModal": {
+    "table": {
+      "description": "Description",
+      "category": "Category",
+      "type": "Type",
+      "amount": "Amount",
+      "actions": {
+        "remove": "Remove",
+        "tooltip": "Don't worry! You can still find this item on reapply"
+      }
+    }
+  },
+  "applyRuleModal": {
+    "title": "Rules that can be applied to the following expenses",
+    "button": {
+      "apply": "Apply Rule"
+    },
+    "toast": {
+      "success": "Expenses updated successfully!",
+      "error": "Failed to update expenses.",
+      "noExpenses": "No expenses available to update"
+    }
+  },
+  "profileDropdown": {
+    "altText": "Toggle user menu",
+    "label": {
+      "myAccount": "My Account"
+    },
+    "menu": {
+      "settings": "Settings",
+      "support": "Support",
+      "logout": "Logout"
+    }
+  },
+  "common": {
+    "currency": "NOK {{amount}}"
+  },
+  "questionnaire": {
+    "review_title": "Review questionnaire",
+    "review_subtitle": "(write-off eligibility based on answers)",
+    "health_family": "Health and Family",
+    "bank_loans": "Bank and Loans",
+    "work_education": "Work and Education",
+    "housing_property": "Housing and Property",
+    "gifts_donations": "Gifts or Donations",
+    "hobby_extra_income": "Hobby, Odd Jobs, and Extra Incomes",
+    "foreign_income": "Foreign Income",
+    "edit_response": "Edit Response",
+    "view_response": "View Response",
+    "savings_from_questions": "Savings from questions",
+    "potential_savings": "Potential Savings",
+    "total_writeoffs": "Total (write-offs)"
+  },
+  "componentsIncomeModal": {
+    "income": {
+      "heading": {
+        "add_income": "Manually add income",
+        "update_income": "Update Income"
+      },
+      "label": {
+        "description": "Description",
+        "amount": "Amount (NOK)",
+        "income_type": "Income Type",
+        "category": "Category"
+      },
+      "button": {
+        "add": "Add",
+        "update": "Update",
+        "income": "Income"
+      },
+      "toast": {
+        "create_success": "Income created successfully!",
+        "create_failure": "Failed to create income",
+        "update_success": "Income updated successfully!",
+        "update_failure": "Failed to update income"
+      },
+      "uploaded_receipt": "Uploaded Receipt",
+      "upload": "Drag a file or click to browse",
+      "uploadTitle": "Upload Statement"
+    }
+  },
+  "writeOffPage": {
+    "reviewQuestionnaire": "Review Questionnaire",
+    "accordionItems": {
+      "item1": {
+        "title": "Have children aged 11 years or younger",
+        "content": {
+          "description": "Parents can deduct expenses related to childcare, such as daycare (barnehage) or after-school programs (SFO/AKS), for children under 12 years of age. The deduction is up to NOK 25,000 for the first child and an additional NOK 15,000 per additional child under 12.",
+          "questions": {
+            "howManyChildren": "How many children do you have under the age of 12?",
+            "documentedExpense": "Documented Expense"
+          }
+        }
+      },
+      "item2": {
+        "title": "I have children aged 12 or older with special care needs",
+        "content": {
+          "description": "Parents can deduct expenses related to childcare, such as daycare (barnehage) or after-school programs (SFO/AKS), for children under 12 years of age.",
+          "questions": {
+            "specialCareNeeds": "Do you have children with needs for special care?",
+            "documentedCareExpenses": "Documented care expenses",
+            "uploadVerification": "Upload verification document"
+          }
+        },
+        "options": {
+          "yes": "Yes",
+          "no": "No"
+        }
+      },
+      "item3": {
+        "title": "I am a single parent",
+        "content": {
+          "description": "Single parents now receive financial support through other mechanisms, such as:",
+          "details": {
+            "extendedChildBenefit": "Extended Child Benefit (Utvidet barnetrygd)",
+            "extendedChildBenefitDesc": "Single parents receive additional child benefits.",
+            "childcareDeductions": "Deductions for Childcare Expenses",
+            "childcareDeductionsDesc": "Deduct costs for day care and after-school programs.",
+            "commutingDeductions": "Commuting Deductions",
+            "commutingDeductionsDesc": "For extra travel costs related to children, such as drop-offs."
+          }
+        }
+      }
+    },
+    "doneButton": "Done"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "incomes": "Incomes",
+    "expenses": "Expenses",
+    "categories": "Categories",
+    "rules": "Rules",
+    "deductions": "Deductions",
+    "tax_file": "Tax file",
+    "write_offs": "Write-offs"
+  },
+  "contentBank": {
+    "reviewQuestionnaire": "Review Questionnaire",
+    "accordionItems": {
+      "item1": {
+        "description": "The deduction rate for loan interest is 22% of the interest paid in the tax year.",
+        "fields": {
+          "totalInterestPaid": "Total interest paid"
+        }
+      },
+      "item2": {
+        "description": "Refinancing costs, such as fees and charges, are deductible alongside interest. The same 22% rate applies.",
+        "fields": {
+          "refinancingCost": "Refinancing cost"
+        }
+      },
+      "item3": {
+        "description": "Ensure the ownership percentage is documented, typically in the loan agreement.",
+        "fields": {
+          "interestAmount": "Interest amount",
+          "yourOwnershipShare": "Your ownership share"
+        }
+      },
+      "item4": {
+        "description": "Young people’s housing savings (BSU) is for people under 34 years of age. You can save up to NOK 27,500 per year. Then you get a tax deduction of NOK 2,750 (10 percent).",
+        "fields": {
+          "thisYearsSavings": "This year's savings"
+        }
+      },
+      "item5": {
+        "description": "Gains and losses on shares are taxable for the amount that exceeds the deductible risk-free return. Losses on sale of shares are deductible.",
+        "fields": {
+          "totalLoss": "Total loss"
+        }
+      }
+    },
+    "doneButton": "Done"
+  },
+  "contentDonation": {
+    "reviewQuestionnaire": "Review Questionnaire",
+    "cardTitle": "Gifts to voluntary organisations",
+    "cardDescription": "If you have given a monetary donation of at least NOK 500 to a voluntary organisation and/or religious or belief-based community, you can get a deduction for this.",
+    "fields": {
+      "donationAmount": "Donation Amount",
+      "uploadVerificationDocument": "Upload verification document"
+    },
+    "doneButton": "Done"
+  },
+  "contentForeignIncome": {
+    "reviewQuestionnaire": "Review Questionnaire",
+    "accordionItems": {
+      "item1": {
+        "title": "Have income or wealth in another country than Norway and pay tax in the other country",
+        "content": {
+          "description": "You must declare all your foreign income and wealth in the Norwegian tax return. This applies regardless of whether you’ve paid tax abroad or the income/wealth is tax free in the country in question.",
+          "fields": {
+            "foreignIncome": "Foreign income",
+            "foreignTaxAmount": "Foreign tax amount",
+            "norwayTaxRate": "Norway tax rate on this income"
+          }
+        }
+      }
+    },
+    "doneButton": "Done"
+  },
+  "housing": {
+    "section1": {
+      "description": "You can deduct related expenses such as part of your mortgage interest, electricity, insurance, and maintenance costs based on the proportion of the property rented out.",
+      "documentedCost": "Documented cost",
+      "uploadVerification": "Upload verification document"
+    },
+    "section2": {
+      "description": "Expenses: Include property maintenance, repairs, insurance, and a portion of mortgage interest. If the property is used solely for renting, you may be able to deduct 100% of the relevant expenses.",
+      "expense": "Expense"
+    },
+    "section3": {
+      "description": "If the property has been your primary residence for at least 12 of the last 24 months before the sale, the capital gains from the sale are tax-free.",
+      "primaryResidence": "Was the property your primary residence for at least 12 of the last 24 months?",
+      "capitalGain": "Capital gain or loss"
+    },
+    "placeholder": {
+      "amount": "NOK 200",
+      "yes": "Yes"
+    },
+    "review": "Review Questionnaire",
+    "submit": "Done"
+  },
+  "commonButton": {
+    "yes": "Yes",
+    "no": "No"
+  },
+  "proprietorship": {
+    "title": "I have a sole proprietorship",
+    "description": "Proprietorship expense = Operating Expenses + Depreciation + Other Deductions Report income and expenses in the RF-1030 or RF-1175 forms."
+  },
+  "revenue": "Revenue",
+  "revenue_placeholder": "NOK 100",
+  "proprietorship_expense": "Proprietorship expense",
+  "expense_placeholder": "NOK 100",
+  "sell_goods_or_services": {
+    "title": "Sell goods or services, blog/influencer, practice e-sports (gaming), breed animals on a small scale",
+    "description": "Only the portion exceeding the standard commuting deduction threshold (37 km/day) is deductible. Keep records of all expenses."
+  },
+  "documented_expense": "Documented expense",
+  "upload_verification": "Upload verification document",
+  "received_salary": {
+    "title": "I have received salary from odd jobs and services",
+    "description": "Odd job income qualifies for the minimum deduction (45% of your total income, capped at NOK 104,450 for 2023)."
+  },
+  "received_salary_threshold": "Received salary from odd jobs and services exceeding NOK 6000?",
+  "odd_job_income": "Odd job income",
+  "odd_job_income_placeholder": "NOK 5000",
+  "yes_no": "Yes or No",
+  "yes": "Yes",
+  "no": "No",
+  "review_questionnaire": "Review Questionnaire",
+  "done": "Done",
+
+  "contentwork": {
+    "home_to_work_comprehension": "The return distance between home and work is more than 37 kilometers.",
+    "number_of_workdays": "Number of Workdays",
+    "distance": "Distance",
+    "road_toll_expenses": "Have expenses for road toll or ferry when travelling between your home and workplace",
+    "documented_expenses": "Documented Expenses",
+    "upload_verification_document": "Upload verification document",
+    "stay_away_over_night": "I Stay away from home overnight because of work",
+    "meals_accommodation_cost": "Meals and accommodation cost",
+    "moved_for_new_job": "Moved for a new job",
+    "work_as_fisherman": "I work as a fisherman",
+    "fishing_income": "Fishing Income",
+    "work_as_seafarer": "I work as a seafarer",
+    "seafarer_income": "Seafarer Income",
+    "went_to_school_last_year": "I went to school last year",
+    "documented_education_expenses": "Documented Education Expenses (if job-related)",
+    "foreign_employee": "I am a foreign employee",
+    "taxable_income": "Taxable Income",
+    "trade_union_deduction": "Member of Trade Union",
+    "maximum_deduction": "Maximum deduction allowed is NOK 3,850",
+    "living_in_norway": "Living in Norway only in part of a year",
+    "spent_183_days_in_norway": "Have you spent more than 183 days in Norway in the last 12 months?",
+    "yes": "Yes",
+    "no": "No",
+    "disputation_phd": "Disputation of a PhD",
+    "documented_costs_for_thesis": "Documented Costs for Thesis Printing, Travel, and Defense Ceremony",
+    "separate_room_home_office": "Have a separate room in your house used only as your home office",
+    "home_area": "Home Area",
+    "submit": "Submit"
+  },
+  "default": "Translation missing"
+}

@@ -1,0 +1,499 @@
+{
+  "page": {
+    "welcome": {
+      "message": "Velkommen"
+    },
+    "search": {
+      "write_off": "Søk avskrivninger"
+    },
+    "home": {
+      "title": "Velkommen",
+      "description": "Internasjonalisering i NextJs 13 App Router"
+    },
+    "dashboard": {
+      "title": "Årlig Diagram",
+      "subTitle": "Vennligst sjekk dokumentene dine",
+      "help": "Trenger du hjelp?",
+      "check": "Vennligst sjekk dokumentene dine",
+      "documentation": "dokumentasjon"
+    },
+    "about": {
+      "title": "Om oss",
+      "description": "Dette er om oss-siden"
+    },
+    "login": {
+      "welcome_back": "Velkommen tilbake",
+      "log_in_to_continue": "Logg inn på kontoen din for å fortsette",
+      "email": "E-post",
+      "password": "Passord",
+      "sign_in": "Logg inn",
+      "remember_me": "Husk meg",
+      "forgot_password": "Glemt passord",
+      "continue_with": "eller fortsett med",
+      "google": "Google",
+      "no_account": "Har du ikke en konto?",
+      "sign_up": "Registrer deg"
+    },
+    "signup": {
+      "title": "Registrer deg",
+      "subtitle": "Opprett en ny konto",
+      "first_name": "Fornavn",
+      "last_name": "Etternavn",
+      "email": "E-post",
+      "password": "Passord",
+      "sign_up": "Registrer deg",
+      "or_continue_with": "eller fortsett med",
+      "google": "Google",
+      "already_have_account": "Har du allerede en konto?",
+      "sign_in": "Logg inn",
+      "verification_email_sent": "Verifikasjonslink har blitt sendt til e-posten din. Vennligst sjekk.",
+      "error_message": "Registreringen mislyktes. Vennligst prøv igjen."
+    },
+    "modal": {
+      "no_data": "Fant ingenting"
+    },
+    "pagination": {
+      "next": "Neste",
+      "previous": "Forrige",
+      "perpage": "Rader per side"
+    },
+    "expenseDataTableColumns": {
+      "date": "Dato",
+      "description": "Beskrivelse",
+      "category": "Kategori",
+      "type": "Type",
+      "amount": "Beløp"
+    },
+    "incomeDataTableColumns": {
+      "date": "Dato",
+      "description": "Beskrivelse",
+      "category": "Kategori",
+      "type": "Type",
+      "amount": "Beløp"
+    },
+    "CategoryDataTableColumns": {
+      "serial_no": "Serienummer",
+      "category": "kategori",
+      "created_by": "opprettet av",
+      "search": "søkekategori",
+      "overview": "Kategorioversikt",
+      "CategoryTitle": "Legg til kategori",
+      "CategoryTitleUpdate": "Oppdater kategori",
+      "text": "Kategorinavn"
+    },
+    "WriteOffDataTableColumns": {
+      "category": "Kategori",
+      "total": "Totale varer",
+      "deduction": "Fradrag"
+    },
+    "expenseoverview": {
+      "title": "Totalt utgiftsoversikt",
+      "subtitle": "i august",
+      "addExpense": "Legg til utgift",
+      "uploadStatements": "Last opp kontoutdrag",
+      "search": "Søk utgift"
+    },
+    "expensemodal": {
+      "addExpense": "Legg til utgift",
+      "uploadStatements": "Last opp kontoutdrag",
+      "applyRule": "Bruk regel"
+    },
+    "expensetopsection": {
+      "business": "Bedrift",
+      "personal": "Personlig",
+      "august": "August",
+      "more": "Mer"
+    },
+    "expenseUploadFile": {
+      "heading": "Last opp kvittering (CSV, PDF)",
+      "uploadButton": "Last opp"
+    },
+    "rulesTopSection": {
+      "title": "Legg til, tilpass regler for å beregne fradragene dine med letthet",
+      "subtitle": "Tilpass regel for bedre håndtering",
+      "search": "Søkeregel",
+      "create_rule": "Opprett regel",
+      "heading": "Regler Oversikt"
+    },
+    "rulesTableColumn": {
+      "serial_no": "Serienummer",
+      "description_contains": "Beskrivelse Inneholder",
+      "expense_type": "Kostnadstype",
+      "category": "Kategori"
+    },
+    "writeOffsTopSection": {
+      "title": "Potensielle besparelser fra utgifter",
+      "categories": {
+        "Meals": "Måltider",
+        "Clothing": "Klær",
+        "Travel": "Reise",
+        "Supplies": "Forsyninger",
+        "Payment": "Betaling",
+        "Gas": "Gass",
+        "Transport": "Transport",
+        "Others": "Andre"
+      }
+    },
+    "writeoffoverview": {
+      "title": "Rediger avskrivninger"
+    }
+  },
+  "components": {
+    "expenseOverview": {
+      "heading": "Totalt utgiftsoversikt",
+      "subheading": "i august",
+      "search": "Søkeutgifter"
+    },
+    "incomeOverview": {
+      "heading": "Total inntektsoversikt",
+      "search": "Søk etter inntekt"
+    },
+    "expenseoverview": {
+      "filter_by": "Filtrer etter"
+    },
+    "filters": {
+      "category": "Kategori",
+      "expense_type": "Utgiftstype"
+    },
+    "buttons": {
+      "expense_buttons": {
+        "text": {
+          "apply_rule": "Bruk regel",
+          "show_write_offs": "Vis avskrivninger",
+          "add_expense": "Legg til utgift",
+          "upload_statements": "Last opp kontoutdrag"
+        }
+      },
+      "income_buttons": {
+        "text": {
+          "add_income": "Legg til inntekt",
+          "upload_statements": "Last opp inntektsoppgaver"
+        }
+      },
+      "category_buttons": {
+        "text": {
+          "add_category": "+ Legg til kategori"
+        }
+      }
+    }
+  },
+  "componentsExpenseModal": {
+    "expense": {
+      "heading": {
+        "add_expense": "Legg til utgift manuelt",
+        "update_expense": "Oppdater Utgift"
+      },
+      "label": {
+        "description": "Beskrivelse",
+        "amount": "Beløp (NOK)",
+        "expense_type": "Utgiftstype",
+        "category": "Kategori"
+      },
+      "button": {
+        "add": "Legg til",
+        "update": "Oppdater",
+        "expense": "Utgift"
+      },
+      "toast": {
+        "create_success": "Utgiften ble opprettet!",
+        "create_failure": "Kunne ikke opprette utgift",
+        "update_success": "Utgiften ble oppdatert!",
+        "update_failure": "Kunne ikke oppdatere utgift"
+      },
+      "uploaded_receipt": "Lastet opp kvittering",
+      "upload": "Dra en fil eller klikk for å bla gjennom",
+      "uploadTitle": "Last opp utgiftsrapport"
+    }
+  },
+  "componentsRuleModal": {
+    "rule": {
+      "if": "HVIS",
+      "descriptionContains": "Beskrivelse inneholder",
+      "then": "Så",
+      "expenseType": "Utgiftstype",
+      "selectType": "Velg type",
+      "business": "Bedrift",
+      "personal": "Personlig",
+      "category": "Kategori",
+      "selectCategory": "Velg kategori",
+      "create": "Opprett",
+      "update": "Oppdater",
+      "discard": "Forkast"
+    }
+  },
+  "toast": {
+    "ruleCreatedSuccess": "Regel opprettet",
+    "ruleUpdatedSuccess": "Regel oppdatert"
+  },
+  "componentsApplyRuleModal": {
+    "table": {
+      "description": "Beskrivelse",
+      "category": "Kategori",
+      "type": "Type",
+      "amount": "Beløp",
+      "actions": {
+        "remove": "Fjern",
+        "tooltip": "Ikke bekymre deg! Du kan fortsatt finne denne varen på nytt"
+      }
+    }
+  },
+  "applyRuleModal": {
+    "title": "Regler som kan brukes på følgende utgifter",
+    "button": {
+      "apply": "Bruk regel"
+    },
+    "toast": {
+      "success": "Utgifter oppdatert!",
+      "error": "Kunne ikke oppdatere utgiftene.",
+      "noExpenses": "Ingen utgifter tilgjengelig for oppdatering"
+    }
+  },
+  "common": {
+    "currency": "kr {{amount}}"
+  },
+  "questionnaire": {
+    "review_title": "Gjennomgang av spørreskjema",
+    "review_subtitle": "(skattefradragsberettigelse basert på svar)",
+    "health_family": "Helse og Familie",
+    "bank_loans": "Bank og Lån",
+    "work_education": "Arbeid og Utdanning",
+    "housing_property": "Bolig og Eiendom",
+    "gifts_donations": "Gaver eller Donasjoner",
+    "hobby_extra_income": "Hobby, Bijobber og Ekstrainntekter",
+    "foreign_income": "Utenlandsk Inntekt",
+    "edit_response": "Rediger Svar",
+    "savings_from_questions": "Besparelser fra spørsmål",
+    "potential_savings": "Potensielle Besparelser",
+    "total_writeoffs": "Totalt (skattefradrag)"
+  },
+  "componentsIncomeModal": {
+    "income": {
+      "heading": {
+        "add_income": "Legg til inntekt manuelt",
+        "update_income": "Oppdater inntekt"
+      },
+      "label": {
+        "description": "Beskrivelse",
+        "amount": "Beløp (NOK)",
+        "income_type": "Inntektstype",
+        "category": "Kategori"
+      },
+      "button": {
+        "add": "Legg til",
+        "update": "Oppdater",
+        "income": "Inntekt"
+      },
+      "toast": {
+        "create_success": "Inntekt lagt til!",
+        "create_failure": "Kunne ikke legge til inntekt",
+        "update_success": "Inntekt oppdatert!",
+        "update_failure": "Kunne ikke oppdatere inntekt"
+      },
+      "uploaded_receipt": "Lastet opp kvittering",
+      "upload": "Dra en fil eller klikk for å bla gjennom",
+      "uploadTitle": "Last opp inntektsoppgave"
+    }
+  },
+  "writeOffPage": {
+    "reviewQuestionnaire": "Gjennomgå spørreskjema",
+    "accordionItems": {
+      "item1": {
+        "title": "Har barn under 11 år",
+        "content": {
+          "description": "Foreldre kan trekke fra utgifter knyttet til barnepass, som barnehage eller SFO, for barn under 12 år. Fradraget er opptil NOK 25 000 for det første barnet og ytterligere NOK 15 000 per barn under 12 år.",
+          "questions": {
+            "howManyChildren": "Hvor mange barn har du under 12 år?",
+            "documentedExpense": "Dokumenterte utgifter"
+          }
+        }
+      },
+      "item2": {
+        "title": "Jeg har barn 12 år eller eldre med spesielle omsorgsbehov",
+        "content": {
+          "description": "Foreldre kan trekke fra utgifter knyttet til barnepass, som barnehage eller SFO, for barn under 12 år.",
+          "questions": {
+            "specialCareNeeds": "Har du barn med behov for spesielle omsorgstjenester?",
+            "documentedCareExpenses": "Dokumenterte omsorgsutgifter",
+            "uploadVerification": "Last opp verifikasjonsdokument"
+          }
+        },
+        "options": {
+          "yes": "Ja",
+          "no": "Nei"
+        }
+      },
+      "item3": {
+        "title": "Jeg er aleneforelder",
+        "content": {
+          "description": "Aleneforeldre mottar nå økonomisk støtte gjennom andre ordninger, som:",
+          "details": {
+            "extendedChildBenefit": "Utvidet barnetrygd",
+            "extendedChildBenefitDesc": "Aleneforeldre mottar ekstra barnetrygd.",
+            "childcareDeductions": "Fradrag for barnepassutgifter",
+            "childcareDeductionsDesc": "Fradrag for kostnader til barnehage og SFO.",
+            "commutingDeductions": "Fradrag for pendling",
+            "commutingDeductionsDesc": "For ekstra reisekostnader knyttet til barn, som kjøring til barnehage eller SFO."
+          }
+        }
+      }
+    },
+    "doneButton": "Ferdig"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "incomes": "Inntekter",
+    "expenses": "Utgifter",
+    "categories": "Kategorier",
+    "rules": "Regler",
+    "deductions": "Fradrag",
+    "tax_file": "Skattefil",
+    "write_offs": "Avskrivninger"
+  },
+  "contentBank": {
+    "reviewQuestionnaire": "Gjennomgå spørreskjema",
+    "accordionItems": {
+      "item1": {
+        "description": "Fradragssatsen for lånerenter er 22 % av rentene som er betalt i skatteåret.",
+        "fields": {
+          "totalInterestPaid": "Totalt betalte renter"
+        }
+      },
+      "item2": {
+        "description": "Refinansieringskostnader, som gebyrer og avgifter, er fradragsberettiget sammen med renter. Den samme satsen på 22 % gjelder.",
+        "fields": {
+          "refinancingCost": "Refinansieringskostnad"
+        }
+      },
+      "item3": {
+        "description": "Sørg for at eierandelen er dokumentert, vanligvis i låneavtalen.",
+        "fields": {
+          "interestAmount": "Rente beløp",
+          "yourOwnershipShare": "Din eierandel"
+        }
+      },
+      "item4": {
+        "description": "Boligsparing for ungdom (BSU) er for personer under 34 år. Du kan spare opptil 27 500 NOK per år. Da får du et skattefradrag på 2 750 NOK (10 prosent).",
+        "fields": {
+          "thisYearsSavings": "Dette årets sparing"
+        }
+      },
+      "item5": {
+        "description": "Gevinster og tap på aksjer er skattepliktige for beløpet som overstiger det fradragsberettigede risikofrie avkastningen. Tap på salg av aksjer er fradragsberettiget.",
+        "fields": {
+          "totalLoss": "Totalt tap"
+        }
+      }
+    },
+    "doneButton": "Ferdig"
+  },
+  "contentDonation": {
+    "reviewQuestionnaire": "Gjennomgå spørreskjema",
+    "cardTitle": "Gaver til frivillige organisasjoner",
+    "cardDescription": "Hvis du har gitt en pengebidrag på minst 500 NOK til en frivillig organisasjon og/eller religiøst eller trosbasert samfunn, kan du få fradrag for dette.",
+    "fields": {
+      "donationAmount": "Donasjonsbeløp",
+      "uploadVerificationDocument": "Last opp bekreftelsesdokument"
+    },
+    "doneButton": "Ferdig"
+  },
+  "contentForeignIncome": {
+    "reviewQuestionnaire": "Gjennomgå spørreskjema",
+    "accordionItems": {
+      "item1": {
+        "title": "Har inntekt eller formue i et annet land enn Norge og betaler skatt i det andre landet",
+        "content": {
+          "description": "Du må oppgi all utenlandsk inntekt og formue i den norske skattemeldingen. Dette gjelder uansett om du har betalt skatt i utlandet eller om inntekten/formuen er skattefri i det aktuelle landet.",
+          "fields": {
+            "foreignIncome": "Utenlandsk inntekt",
+            "foreignTaxAmount": "Utenlandsk skattebeløp",
+            "norwayTaxRate": "Norsk skattesats på denne inntekten"
+          }
+        }
+      }
+    },
+    "doneButton": "Ferdig"
+  },
+  "housing": {
+    "section1": {
+      "description": "Du kan trekke fra relaterte utgifter som en del av boliglånsrenter, strøm, forsikring og vedlikeholdskostnader basert på andelen av eiendommen som leies ut.",
+      "documentedCost": "Dokumenterte kostnader",
+      "uploadVerification": "Last opp verifiseringsdokument"
+    },
+    "section2": {
+      "description": "Utgifter: Inkluderer vedlikehold av eiendom, reparasjoner, forsikring og en del av boliglånsrenter. Hvis eiendommen kun brukes til utleie, kan du kanskje trekke fra 100 % av de relevante utgiftene.",
+      "expense": "Utgift"
+    },
+    "section3": {
+      "description": "Hvis eiendommen har vært din primærbolig i minst 12 av de siste 24 månedene før salget, er gevinsten fra salget skattefri.",
+      "primaryResidence": "Var eiendommen din primærbolig i minst 12 av de siste 24 månedene?",
+      "capitalGain": "Gevinst eller tap"
+    },
+    "placeholder": {
+      "amount": "NOK 200",
+      "yes": "Ja"
+    },
+    "review": "Gjennomgå spørreskjema",
+    "submit": "Ferdig"
+  },
+  "commonButton": {
+    "yes": "Ja",
+    "no": "Nei"
+  },
+  "proprietorship": {
+    "title": "Jeg har en enkeltpersonsforetak",
+    "description": "Forretningskostnader = Driftskostnader + Avskrivninger + Andre fradrag. Rapportere inntekter og kostnader i RF-1030 eller RF-1175 skjemaene."
+  },
+  "revenue": "Inntekt",
+  "revenue_placeholder": "NOK 100",
+  "proprietorship_expense": "Enkeltpersonsforetak Kostnad",
+  "expense_placeholder": "NOK 100",
+  "sell_goods_or_services": {
+    "title": "Selg varer eller tjenester, blogg/influencer, spill (gaming), oppdrett av dyr i liten skala",
+    "description": "Bare den delen som overstiger standard pendlerfradragsterskelen (37 km/dag) kan fradragsføres. Oppbevar kvitteringer for alle kostnader."
+  },
+  "documented_expense": "Dokumenterte kostnader",
+  "upload_verification": "Last opp bekreftelsesdokument",
+  "received_salary": {
+    "title": "Jeg har mottatt lønn fra tilfeldige jobber og tjenester",
+    "description": "Inntekt fra tilfeldige jobber kvalifiserer for minimumsfradraget (45% av totalinntekten, maks NOK 104,450 for 2023)."
+  },
+  "received_salary_threshold": "Har du mottatt lønn fra tilfeldige jobber og tjenester som overstiger NOK 6000?",
+  "odd_job_income": "Inntekt fra tilfeldige jobber",
+  "odd_job_income_placeholder": "NOK 5000",
+  "yes_no": "Ja eller Nei",
+  "yes": "Ja",
+  "no": "Nei",
+  "review_questionnaire": "Gjennomgå spørreskjema",
+  "done": "Ferdig",
+  "contentwork": {
+    "home_to_work_comprehension": "Returdistansen mellom hjem og arbeid er mer enn 37 kilometer.",
+    "number_of_workdays": "Antall arbeidsdager",
+    "distance": "Avstand",
+    "road_toll_expenses": "Har du utgifter til bompenger eller ferge når du reiser mellom hjem og arbeidsplass",
+    "documented_expenses": "Dokumenterte utgifter",
+    "upload_verification_document": "Last opp verifikasjonsdokument",
+    "stay_away_over_night": "Jeg overnatter borte fra hjemmet på grunn av jobb",
+    "meals_accommodation_cost": "Måltider og overnattingskostnader",
+    "moved_for_new_job": "Flyttet for et nytt jobb",
+    "work_as_fisherman": "Jeg jobber som fisker",
+    "fishing_income": "Fiskeinntekt",
+    "work_as_seafarer": "Jeg jobber som sjømann",
+    "seafarer_income": "Sjømannsinntekt",
+    "went_to_school_last_year": "Jeg gikk på skole i fjor",
+    "documented_education_expenses": "Dokumenterte utdanningsutgifter (hvis jobbrelaterte)",
+    "foreign_employee": "Jeg er en utenlandsk ansatt",
+    "taxable_income": "Skattepliktig inntekt",
+    "trade_union_deduction": "Medlem av fagforening",
+    "maximum_deduction": "Maksimal fradrag er NOK 3 850",
+    "living_in_norway": "Bodde i Norge bare en del av året",
+    "spent_183_days_in_norway": "Har du tilbrakt mer enn 183 dager i Norge de siste 12 månedene?",
+    "yes": "Ja",
+    "no": "Nei",
+    "disputation_phd": "Disputas for en PhD",
+    "documented_costs_for_thesis": "Dokumenterte kostnader for trykking av avhandling, reise og forsvarseremoni",
+    "separate_room_home_office": "Har et eget rom i huset ditt som kun brukes som hjemmekontor",
+    "home_area": "Hjemmeområde",
+    "submit": "Send inn"
+  },
+  "default": "Oversettelse mangler"
+}

@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:prettier/recommended" // This line enables Prettier as an ESLint rule
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": 0,
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}

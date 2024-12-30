@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Account Verification - Skattepluss</title>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f8f9fc;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 850px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 20px;
+        text-align: center;
+      }
+      .header {
+        margin-bottom: 20px;
+      }
+      .header img {
+        max-width: 150px;
+      }
+      .hero-image {
+        width: 840px;
+        height: 150px;
+        margin-bottom: 20px;
+      }
+      h1 {
+        font-size: 24px;
+        color: #333;
+      }
+      p {
+        color: #5d5d5d;
+        font-size: 14px;
+        line-height: 140%;
+        font-weight: 500;
+        font-style: normal;
+        margin: 10px 0;
+      }
+      c {
+        color: #5d5d5d;
+        font-size: 12px;
+        line-height: 140%;
+        font-weight: 500;
+        font-style: normal;
+        margin: 10px 0;
+      }
+      footer {
+        text-align: center;
+        color: grey;
+        font-size: 10px;
+        line-height: 1.5;
+        margin: 10px 0;
+        padding-bottom: 10px;
+        font-weight: 500;
+      }
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 20px 0;
+        background-color: #5764f2;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 4px;
+      }
+      .footer {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #888;
+      }
+      .footer a {
+        color: #5764f2;
+        text-decoration: none;
+      }
+      .social-icons img {
+        height: 30px;
+        width: 30px;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <img src="https://i.ibb.co.com/jysW6W0/skatterpluss-2.png" alt="Group-1-1" style="width:140px; height:18px;"/>
+      </div>
+
+      <!-- Hero Image -->
+      <img
+        src="https://i.ibb.co.com/wz2gqpd/Frame-81283.png"
+        alt="Welcome Image"
+        class="hero-image"
+        
+      />
+
+      <!-- Main Content -->
+      <h1>Hey {{firstName}}</h1>
+      <p>
+        Wow! Thanks for registering an account with Skattepluss.
+        Before we get started, we’ll need to verify your email.
+      </p>
+
+      
+      <!-- Button -->
+      <a href="{{token}}" class="button" style="color:white;">Verify</a>
+      <p>
+        If you did not expect this invitation or believe it was sent to you in error, you can safely ignore this email.<br />
+        For security reasons, this link will expire in 24 hours.
+      </p>
+      
+      <p>Thank you ,<br />Skattepluss team</p>
+      <!-- Support Section -->
+      <p>
+        Our team is always ready to support. If you need support,
+        <a href="{{supportUrl}}" style="color: #5764f2; text-decoration: none"
+          >Contact us!</a
+        >
+      </p>
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://facebook.com/"
+          ><img src="https://i.ibb.co.com/9T6PM2K/Frame.png" alt="Frame"
+        /></a>
+        <a href="https://linkedin.com/"
+          ><img src="https://i.ibb.co.com/MZF9X9H/Frame-1.png" alt="Frame-1"
+        /></a>
+        <a href="https://instagram.com/"
+          ><img src="https://i.ibb.co.com/XCKGccJ/Frame-2.png" alt="Frame-2"
+        /></a>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <c>Copyright &copy; 2024 Skattepluss,</c><br />
+        <footer
+          >Skattepluss is a comprehensive tax management solution that assists
+          freelancers, gig workers, independent contractors, family, and small
+          business owners in tracking expenses and identifying tax
+          write-offs.</footer
+        >
+      </div>
+    </div>
+  </body>
+</html>
